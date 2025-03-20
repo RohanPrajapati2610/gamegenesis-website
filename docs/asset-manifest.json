@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gamegenesis-website/static/css/main.2179926f.css",
-    "main.js": "/gamegenesis-website/static/js/main.bc1e8868.js",
+    "main.js": "/gamegenesis-website/static/js/main.82eb3e00.js",
     "static/js/453.bdb13658.chunk.js": "/gamegenesis-website/static/js/453.bdb13658.chunk.js",
     "static/media/castel.png": "/gamegenesis-website/static/media/castel.4823ee03a399d7f6f75c.png",
     "static/media/c.png": "/gamegenesis-website/static/media/c.31340afbc701b6b973c2.png",
@@ -15,11 +15,11 @@
     "static/media/f.png": "/gamegenesis-website/static/media/f.4539852d9c8c94285882.png",
     "index.html": "/gamegenesis-website/index.html",
     "main.2179926f.css.map": "/gamegenesis-website/static/css/main.2179926f.css.map",
-    "main.bc1e8868.js.map": "/gamegenesis-website/static/js/main.bc1e8868.js.map",
+    "main.82eb3e00.js.map": "/gamegenesis-website/static/js/main.82eb3e00.js.map",
     "453.bdb13658.chunk.js.map": "/gamegenesis-website/static/js/453.bdb13658.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2179926f.css",
-    "static/js/main.bc1e8868.js"
+    "static/js/main.82eb3e00.js"
   ]
 }
