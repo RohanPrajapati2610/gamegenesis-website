@@ -24,23 +24,8 @@ const ImageContainer = styled.div`
   overflow: hidden;
   margin-bottom: 2rem;
   border-radius: 8px;
-  background-image: url(${heroImage});
-  background-size: cover;
-  background-position: center;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
   transition: all 0.5s ease;
-
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    opacity: 0;
-    transition: opacity 0.5s ease;
-  }
 
   &:hover {
     transform: scale(1.02);
@@ -53,6 +38,22 @@ const ImageContainer = styled.div`
       opacity: 1;
       transform: translateY(0);
     }
+  }
+`;
+
+const ImageOverlay = styled.div`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  z-index: 2;
+
+  ${ImageContainer}:hover & {
+    opacity: 1;
   }
 `;
 
@@ -69,7 +70,7 @@ const HeroContent = styled.div`
   opacity: 0;
   transform: translateY(20px);
   transition: all 0.5s ease;
-  z-index: 2;
+  z-index: 3;
 `;
 
 const HeroTitle = styled.h1`
@@ -129,6 +130,20 @@ const BackupHero = () => {
   return (
     <HeroContainer>
       <ImageContainer>
+        <img 
+          src={heroImage} 
+          alt="Hero background" 
+          style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            width: '100%',
+            height: '100%',
+            objectFit: 'cover',
+            zIndex: 1
+          }} 
+        />
+        <ImageOverlay />
         <HeroContent className="hero-content">
           <HeroTitle>We create worlds for you to play</HeroTitle>
           <HeroDescription>
