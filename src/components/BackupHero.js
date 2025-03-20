@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import heroImage from '../assets/hero.png';
 
 const HeroContainer = styled.div`
   position: relative;
@@ -23,7 +24,7 @@ const ImageContainer = styled.div`
   overflow: hidden;
   margin-bottom: 2rem;
   border-radius: 8px;
-  background-image: url('/hero.png');
+  background-image: url(${heroImage});
   background-size: cover;
   background-position: center;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
