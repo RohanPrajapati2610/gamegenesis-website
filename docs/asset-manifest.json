@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/gamegenesis-website/static/css/main.2179926f.css",
+    "main.js": "/gamegenesis-website/static/js/main.bc1e8868.js",
+    "static/js/453.bdb13658.chunk.js": "/gamegenesis-website/static/js/453.bdb13658.chunk.js",
+    "static/media/castel.png": "/gamegenesis-website/static/media/castel.4823ee03a399d7f6f75c.png",
+    "static/media/c.png": "/gamegenesis-website/static/media/c.31340afbc701b6b973c2.png",
+    "static/media/a.png": "/gamegenesis-website/static/media/a.e9ce9da8ea614678cc85.png",
+    "static/media/b.png": "/gamegenesis-website/static/media/b.17ef0995fbd712301fbe.png",
+    "static/media/d.png": "/gamegenesis-website/static/media/d.0cd68972499ec9f4c6bf.png",
+    "static/media/e.png": "/gamegenesis-website/static/media/e.72f9207e77ce4402f09c.png",
+    "static/media/q.png": "/gamegenesis-website/static/media/q.c1a0f2be9b5f2c7d3973.png",
+    "static/media/j.png": "/gamegenesis-website/static/media/j.5ea1418198b14100e1da.png",
+    "static/media/g.png": "/gamegenesis-website/static/media/g.7687696e66c5cbfe7f19.png",
+    "static/media/f.png": "/gamegenesis-website/static/media/f.4539852d9c8c94285882.png",
+    "index.html": "/gamegenesis-website/index.html",
+    "main.2179926f.css.map": "/gamegenesis-website/static/css/main.2179926f.css.map",
+    "main.bc1e8868.js.map": "/gamegenesis-website/static/js/main.bc1e8868.js.map",
+    "453.bdb13658.chunk.js.map": "/gamegenesis-website/static/js/453.bdb13658.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2179926f.css",
+    "static/js/main.bc1e8868.js"
+  ]
+}
