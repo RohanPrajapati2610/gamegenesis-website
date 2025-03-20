@@ -16,8 +16,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build && Remove-Item -Recurse -Force docs -ErrorAction SilentlyContinue && Copy-Item -Path build -Destination docs -Recurse -Force",
+    "deploy": "git add docs && git commit -m \"Update docs folder\" && git push",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
